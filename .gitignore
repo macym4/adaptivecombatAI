@@ -1,0 +1,31 @@
+# need to ignore all of the unreal generated engine files
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# then we hide visual studio generated files
+.vs/
+.vscode/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.sln.docstates
+
+# build the artifacts
+Debug/
+Release/
+x64/
+*.obj
+*.pdb
+*.exe
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# and also just in case we use python for analysis later
+__pycache__/
+*.pyc
+.venv/
