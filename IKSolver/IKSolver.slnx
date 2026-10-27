@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="IKSolver/IKSolver.vcxproj" Id="24b05331-678e-4168-86b5-4547ad2b11c4" />
+</Solution>
