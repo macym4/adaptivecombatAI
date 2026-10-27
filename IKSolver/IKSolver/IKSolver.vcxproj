@@ -20,13 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SolverInterface.cpp" />
-    <ClCompile Include="SolverLogic.cpp" />
+    <ClCompile Include="VectorMath.cpp" />
+    <ClCompile Include="VectorMath.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.hpp" />
-    <ClInclude Include="SolverInterface.hpp" />
-    <ClInclude Include="SolverLogic.hpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>

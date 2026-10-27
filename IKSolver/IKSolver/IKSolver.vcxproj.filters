@@ -18,21 +18,15 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SolverInterface.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="VectorMath.hpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="SolverLogic.cpp">
+    <ClCompile Include="VectorMath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SolverInterface.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SolverLogic.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
