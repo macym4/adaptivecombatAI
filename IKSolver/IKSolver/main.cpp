@@ -4,6 +4,8 @@
 #include <stdexcept>
 #include "main.hpp"
 #include "VectorMath.hpp"
+#include "Visualizer.hpp"
+
 using namespace std;
 
 int main() {
@@ -171,6 +173,10 @@ int main() {
 	runTestCase(testchain7, target7, answer7);
 	runTestCase(testchain8, target8, answer8);
 
+	const int screenWidth = 800;
+	const int screenHeight = 450;
+
+	visualize(testchain1);
 
 	return 0;
 }

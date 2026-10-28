@@ -11,3 +11,5 @@ void runTestCase(
 	const std::vector<double>& target, 
 	const std::vector<double>& answer
 );
+
+void visualize();
