@@ -5,6 +5,7 @@
 #include "main.hpp"
 #include "VectorMath.hpp"
 #include "Visualizer.hpp"
+#include <chrono>
 
 using namespace std;
 
@@ -187,8 +188,17 @@ void runTestCase(jointChain chain, const std::vector<double>& target, const std:
 	std::cout << "\n BEFORE FABRIK \n";
 	chain.display();
 
+	auto start = std::chrono::steady_clock::now();
+
 	chain.calculateNewPositions(target);
-	std::cout << "AFTER FABRIK: \n";
+
+	auto end = std::chrono::steady_clock::now();
+
+	double runtime = std::chrono::duration<double, std::micro>(
+		end - start
+	).count();
+
+	std::cout << "Execution time: " << runtime << " us\n";	std::cout << "AFTER FABRIK: \n";
 	chain.display();
 
 	// calculate endpoint error
